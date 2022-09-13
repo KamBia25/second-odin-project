@@ -22,19 +22,25 @@ a {
 .content {
     display: flex;
     flex-direction: column;
-    padding: 0  100px; 
+ 
 }
 .first-text {
     display: flex;
     background-color: #1f2937;
+    padding: 0  100px; 
 }
 #first-header {
     font-size: 48px;
+    
     color: #f9faf8;
     font-weight: bolder;
 }
 button {
     background-color: #3882f6;
     color: #f9faf8;
-    
+}
+#front-picture {
+    display: flex;
+    max-width: 600px;
+    max-height: 250px;
 }
