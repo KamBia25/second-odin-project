@@ -58,5 +58,11 @@ button {
 }
 .information {
     display: flex;
-    
+    justify-content: center;
+    padding: 8px  200px;
+}
+.inf-img {
+    display: flex;
+width: 150px;
+height: 150px;
 }
