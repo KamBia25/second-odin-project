@@ -28,7 +28,7 @@ a {
 .first-text {
     display: flex;
     background-color: #1f2937;
-    padding: 0  200px; 
+    padding: 50px  200px; 
     justify-content: space-between;
 
 }
@@ -41,6 +41,8 @@ a {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 8px 24px;
+    border-radius: 8px;
 }
 #front-picture {
     display: flex;
@@ -49,4 +51,8 @@ button {
 }
 .how-many-classes-haha {
     max-width: 350px;
+}
+.white-text {
+    color: #f9faf8;
+    padding: 8px 0;
 }
