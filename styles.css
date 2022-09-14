@@ -10,9 +10,10 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 0  100px; 
+    padding: 8px  200px; 
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
+
     
 }
 a {
@@ -27,7 +28,9 @@ a {
 .first-text {
     display: flex;
     background-color: #1f2937;
-    padding: 0  100px; 
+    padding: 0  200px; 
+    justify-content: space-between;
+
 }
 #first-header {
     font-size: 48px;
@@ -42,5 +45,8 @@ button {
 #front-picture {
     display: flex;
     max-width: 600px;
-    max-height: 250px;
+    max-height: 250px;   
+}
+.how-many-classes-haha {
+    max-width: 350px;
 }
