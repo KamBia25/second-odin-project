@@ -96,10 +96,14 @@ flex-direction: column;
     justify-content: flex-end;
 }
 .advertisement {
+    padding: 20px 200px;
     display: flex;
     background-color: #3882f6;
     color: #f9faf8;
-    flex-direction: column;
+}
+.call-to {
+display: flex;
+flex-direction: column;
 }
 .footer {
     display: flex;  
@@ -108,4 +112,10 @@ flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 12px 200px;
+}
+#mega-button {
+    max-height: 35px;
+    max-width: 97px;
+    justify-content: center;
+    align-items: center;
 }
