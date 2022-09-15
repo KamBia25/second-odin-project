@@ -13,8 +13,6 @@ body {
     padding: 8px  200px; 
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
-
-    
 }
 a {
     text-decoration: none;
@@ -34,7 +32,6 @@ a {
 }
 #first-header {
     font-size: 48px;
-    
     color: #f9faf8;
     font-weight: bolder;
 }
@@ -82,5 +79,33 @@ height: 150px;
 .inf-cont {
 display: flex;
 flex-direction: column;
-
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-family: light italic;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 8px  200px; 
+}
+#signature {
+    display:flex;
+    font-weight: 700;
+    font-size: 24px;
+    justify-content: flex-end;
+}
+.advertisement {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    flex-direction: column;
+}
+.footer {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 12px 200px;
 }
