@@ -56,7 +56,7 @@ button {
 .information {
     display: flex;
     justify-content: center;
-    padding: 0  200px;
+    padding: 40px  200px;
     flex-direction: column;
 }
 #inf-header{
@@ -75,6 +75,7 @@ height: 150px;
     display: flex;
     justify-content: center;
     gap: 32px;
+    padding-bottom: 16px;
 }
 .inf-cont {
 display: flex;
